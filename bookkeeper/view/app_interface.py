@@ -14,7 +14,7 @@ from PySide6.QtWidgets import QHBoxLayout, QLabel, QFrame
 from PySide6.QtWidgets import QTabWidget, QHeaderView, QTextEdit, QComboBox
 from sqlalchemy import Row
 
-from models.sqlalchemy_models import CategoryTable
+from bookkeeper.models.sqlalchemy_models import CategoryTable
 
 
 class ExpenseTableModel(QAbstractTableModel):
