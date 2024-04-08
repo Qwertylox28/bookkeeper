@@ -15,7 +15,7 @@
   <ol>
     <li>
       При открытии приложения появится окно с тремя вкладками
-      <img scr="bookkeeper/screenshots/description1.png">
+      <img scr="https://github.com/Qwertylox28/bookkeeper/blob/main/screenshots/description1.png">
     </li>
   </ol>
 </p>
