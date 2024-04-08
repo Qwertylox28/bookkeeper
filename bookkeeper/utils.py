@@ -4,7 +4,7 @@
 
 from typing import Iterable, Iterator, List
 
-from models.sqlalchemy_models import BudgetTable
+from bookkeeper.models.sqlalchemy_models import BudgetTable
 
 
 def _get_indent(line: str) -> int:
