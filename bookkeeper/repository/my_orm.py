@@ -12,7 +12,7 @@ from sqlalchemy.engine.base import Engine
 from sqlalchemy.engine.row import Row
 from sqlalchemy.orm.decl_api import DeclarativeAttributeIntercept
 
-from models.sqlalchemy_models import CategoryTable, ExpenseTable,\
+from bookkeeper.models.sqlalchemy_models import CategoryTable, ExpenseTable,\
     Basetype, Base
 
 
