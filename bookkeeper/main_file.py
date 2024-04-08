@@ -10,10 +10,10 @@ from PySide6.QtWidgets import QApplication
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from models.sqlalchemy_models import BudgetTable
-from presenter import Presenter
-from config import DSN
-from repository.my_orm import create_tables, insert_values
+from bookkeeper.models.sqlalchemy_models import BudgetTable
+from bookkeeper.presenter import Presenter
+from bookkeeper.config import DSN
+from bookkeeper.repository.my_orm import create_tables, insert_values
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
