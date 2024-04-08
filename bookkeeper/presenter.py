@@ -13,16 +13,16 @@ from PySide6.QtGui import QCursor
 from sqlalchemy import Row
 from sqlalchemy.orm import sessionmaker, Session
 
-from view.app_interface import MainWindow, ExpenseTableModel
-from view.app_interface import BudgetModel, CatExpenseModel
-from utils import read_tree, budget_data_transform
-from config import NOT_STATED_NAME
+from bookkeeper.view.app_interface import MainWindow, ExpenseTableModel
+from bookkeeper.view.app_interface import BudgetModel, CatExpenseModel
+from bookkeeper.utils import read_tree, budget_data_transform
+from bookkeeper.config import NOT_STATED_NAME
 
-from repository.my_orm import delete_all, get_all, get_by_pk,\
+from bookkeeper.repository.my_orm import delete_all, get_all, get_by_pk,\
     get_category_pk_by_name, get_week_expenses, get_month_expenses,\
     get_month_expenses_by_cat, get_day_expenses_by_cat, get_day_expenses,\
     get_expenses_data, insert_values, update_by_pk, delete_by_pk
-from models.sqlalchemy_models import ExpenseTable, BudgetTable, CategoryTable
+from bookkeeper.models.sqlalchemy_models import ExpenseTable, BudgetTable, CategoryTable
 
 
 class Presenter:
