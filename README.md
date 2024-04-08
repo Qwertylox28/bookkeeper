@@ -15,7 +15,7 @@
   <ol>
     <li>
       При открытии приложения появится окно с тремя вкладками
-      <img scr="screenshots/description1.png", width=500, height=400>
+      ![Image-alt](screenshots/description1.png)
     </li>
   </ol>
 </p>
